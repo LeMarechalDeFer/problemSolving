@@ -16,6 +16,16 @@ The objective is to:
 
 ---
 
+## Problem Solving Methodology
+
+1. Understand the problem
+2. Plan the solution
+3. Implement the solution
+4. Test the solution
+5. Refactor the solution
+
+
+---
 
 ## 📂 Project Structure  
 
