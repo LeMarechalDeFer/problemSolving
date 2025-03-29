@@ -37,12 +37,6 @@ int main(){
         return 1;
     }
 
-  
-    int test = 121 ;
-
-    // std::string string_number = std::to_string(test);
-
-    // sort(string_number.begin(), string_number.end() )
 
     std::vector<int> array ;
 
