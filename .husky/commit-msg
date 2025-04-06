@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+# . "$(dirname -- "$0")/_/husky.sh"
 
-# npx --no-install commitlint --edit 
-exec < /dev/tty && npx cz --hook || true
+# # npx --no-install commitlint --edit 
+# exec < /dev/tty && npx cz --hook || true
 
+echo "Husky commit-msg is running"
+
+pnpm commitlint --edit "$(git rev-parse --absolute-git-dir)/COMMIT_EDITMSG"

@@ -78,3 +78,5 @@ Choice between :
 - MAE : mean absolute error when high outliers
 - Log Loss : boosting
 - Huber Loss : regression quadratic & linear
+
+
