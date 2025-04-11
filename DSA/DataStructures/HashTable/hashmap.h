@@ -19,7 +19,7 @@ typedef struct HashMap{
 
 unsigned long hash(const char* str);
 HashMap createHashMap(size_t size);
-void insert(HashMap table, int value);
+void insert(HashMap table, const char* key, int value);
 void get_element(HashMap table, const char* key);
 void delete_element(HashMap table, const char* key);
 void free_table(HashMap table);
